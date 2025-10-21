@@ -1,0 +1,30 @@
+# --- Python / env / IDE ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# --- Outputs / derived artifacts ---
+# Ignore merged and generated files; teammates can recreate via scripts.
+UNSW-NB15_full.csv
+UNSW-NB15_sample_1k.csv
+outputs/
+*.h5
+*.pkl
+*.npy
+*.npz
+*.model
+*.sav
+
+# Optional: ignore notebook checkpoints
+.ipynb_checkpoints/
+UNSW-NB15 DataSet/
+UNSW-NB15 DataSet/
