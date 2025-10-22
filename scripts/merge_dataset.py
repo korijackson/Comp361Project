@@ -1,3 +1,13 @@
+"""
+    Author: Kori Jackson
+    Merges the four UNSW-NB15 CSV parts and the column names.
+    Outputs:
+    UNSW-NB15_full.csv   – complete dataset
+    UNSW-NB15_sample_1k.csv – small sample for testing
+
+    ***This script was developed with assistance from ChatGPT (OpenAI, Oct 2025 version).
+    """
+
 from pathlib import Path
 import pandas as pd
 import glob
