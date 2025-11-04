@@ -26,5 +26,5 @@ outputs/
 
 # Optional: ignore notebook checkpoints
 .ipynb_checkpoints/
-UNSW-NB15 DataSet/
-UNSW-NB15 DataSet/
+data/
+data/

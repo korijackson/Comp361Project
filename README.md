@@ -1,37 +1,15 @@
-# COMP 361 – Project
-This project uses the **UNSW-NB15 dataset**.  
-## Phase 0: Initializing Project
+# 🧠 COMP 361 – Network Intrusion Detection Project
 
-#### Step 1: Clone the Repository
+This project replicates and extends the methodology of *Vibhute et al. (2024)* using the **UNSW-NB15 dataset** for network intrusion detection.  
+All steps are implemented in Python using **pandas**, **scikit-learn**, and **joblib**.
 
-#### Step 2: Folder Setup
+---
 
-Make sure your folders look like this:
-```
-Comp361Project/
-├── .gitignore
-├── README.md
-├── scripts/
-│   └── merge_dataset.py
-└── UNSW-NB15 DataSet/
-    ├── NUSW-NB15_features.csv
-    ├── UNSW-NB15_1.csv
-    ├── UNSW-NB15_2.csv
-    ├── UNSW-NB15_3.csv
-    └── UNSW-NB15_4.csv
-```
-#### Step 3: Install Pandas and run scripts/merge_dataset.py
-```
-pip install pandas
-python scripts/merge_dataset.py
-```
+## 📁 Project Overview
+This project processes, cleans, and analyzes the UNSW-NB15 dataset in multiple phases:
 
-
-
-The `merge_dataset.py` script combines the four raw parts into one full dataset creating:
-- **UNSW-NB15_full.csv**
-- **UNSW-NB15_sample_1k.csv**
-
-
-
-
+| Phase | Description | Main Output |
+|--------|--------------|--------------|
+| **0** | Dataset setup & merge | `UNSW-NB15_full.csv`, `UNSW-NB15_sample_1k.csv` |
+| **1** | Preprocessing & cleaning | `UNSW-NB15_cleaned.csv` |
+| **2** | Feature selection with Random Forest | `UNSW-NB15_top15.csv`, plots, and model artifacts |

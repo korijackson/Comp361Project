@@ -43,7 +43,7 @@ def load_features_csv(feature_path: Path) -> list[str]:
 
 def main():
     # 1) Point to the data folder (one level up from /scripts)
-    DATA_DIR = Path("../UNSW-NB15 DataSet").resolve()
+    DATA_DIR = Path("../data").resolve()
     if not DATA_DIR.exists():
         sys.exit(f"❌ Data folder not found: {DATA_DIR}")
 
