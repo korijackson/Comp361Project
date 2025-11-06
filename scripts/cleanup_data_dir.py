@@ -22,6 +22,7 @@ keep = {
     "UNSW-NB15_rf_top15.png",
     "UNSW-NB15_selected_features.txt",
     "UNSW-NB15_top15.csv",
+    "UNSW-NB15_full.csv"
 }
 
 # === Move obsolete files into /data/old ===
