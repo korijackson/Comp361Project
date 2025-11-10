@@ -1,3 +1,9 @@
+"""
+    Author: Kori Jackson
+    Moves csv files that are no longer being used to another directory for cleanliness
+
+    ***This script was developed with assistance from ChatGPT (OpenAI, Oct 2025 version).
+    """
 from pathlib import Path
 import shutil
 
